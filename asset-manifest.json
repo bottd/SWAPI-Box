@@ -1,16 +1,16 @@
 {
-  "main.css": "/SWAPI-Box/static/css/main.c92d02de.chunk.css",
-  "main.js": "/SWAPI-Box/static/js/main.2e947d5d.chunk.js",
-  "main.js.map": "/SWAPI-Box/static/js/main.2e947d5d.chunk.js.map",
+  "main.css": "/SWAPI-Box/static/css/main.95ab02c4.chunk.css",
+  "main.js": "/SWAPI-Box/static/js/main.7de9c0a2.chunk.js",
+  "main.js.map": "/SWAPI-Box/static/js/main.7de9c0a2.chunk.js.map",
   "static/js/1.861a883d.chunk.js": "/SWAPI-Box/static/js/1.861a883d.chunk.js",
   "static/js/1.861a883d.chunk.js.map": "/SWAPI-Box/static/js/1.861a883d.chunk.js.map",
   "runtime~main.js": "/SWAPI-Box/static/js/runtime~main.92940b4e.js",
   "runtime~main.js.map": "/SWAPI-Box/static/js/runtime~main.92940b4e.js.map",
-  "static/css/main.c92d02de.chunk.css.map": "/SWAPI-Box/static/css/main.c92d02de.chunk.css.map",
+  "static/css/main.95ab02c4.chunk.css.map": "/SWAPI-Box/static/css/main.95ab02c4.chunk.css.map",
   "static/media/obi-wan.jpg": "/SWAPI-Box/static/media/obi-wan.fbf57569.jpg",
   "static/media/App.css": "/SWAPI-Box/static/media/stars-bg.a312f81e.jpg",
   "static/media/MainPage.css": "/SWAPI-Box/static/media/Starjedi.cc3019aa.ttf",
   "index.html": "/SWAPI-Box/index.html",
-  "precache-manifest.b63094a4d4afa6832e2e1b580fbc15d2.js": "/SWAPI-Box/precache-manifest.b63094a4d4afa6832e2e1b580fbc15d2.js",
+  "precache-manifest.a35540aae29e32817aa65ce2be7de6ab.js": "/SWAPI-Box/precache-manifest.a35540aae29e32817aa65ce2be7de6ab.js",
   "service-worker.js": "/SWAPI-Box/service-worker.js"
 }
