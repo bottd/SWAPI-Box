@@ -5,13 +5,12 @@ import "./Favorite.css";
 
 class Favorite extends Component {
   render() {
-    const { favoritesCount, toggleFavorites } = this.props;
+    const { favoritesCount } = this.props;
     return (
       <div className="Favorites">
         <NavLink
-          to={`/favorites`}
+          to={`/SWAPI-Box/favorites`}
           className="favoritesBtn"
-          onClick={toggleFavorites}
         >
           <span className="favoritesIcon">#</span> Favorites: {favoritesCount}
         </NavLink>
@@ -21,7 +20,6 @@ class Favorite extends Component {
 }
 
 Favorite.propTypes = {
-  toggleFavorites: PropTypes.func.isRequired,
   favoritesCount: PropTypes.number.isRequired,
 };
 

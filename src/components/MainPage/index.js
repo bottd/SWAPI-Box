@@ -7,7 +7,6 @@ import "./MainPage.css";
 
 const MainPage = ({
   favoritesCount,
-  toggleFavorites,
   updateData,
   handleCardClick,
   selectedCategory,
@@ -17,7 +16,6 @@ const MainPage = ({
     <div className="MainPage">
       <h1 className="mainTitle">$ SWAPi-Box $</h1>
       <Favorite
-        toggleFavorites={toggleFavorites}
         favoritesCount={favoritesCount}
       />
       <Buttons selectedCategory={selectedCategory} updateData={updateData} />
@@ -32,7 +30,6 @@ const MainPage = ({
 
 MainPage.propTypes = {
   favoritesCount: PropTypes.number.isRequired,
-  toggleFavorites: PropTypes.func.isRequired,
   updateData: PropTypes.func.isRequired,
   handleCardClick: PropTypes.func.isRequired,
   selectedCategory: PropTypes.string.isRequired,

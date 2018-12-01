@@ -16,7 +16,7 @@ const SideScroll = props => {
 };
 
 SideScroll.propTypes = {
-  episodeData: PropTypes.objectOf(PropTypes.string)
+  episodeData: PropTypes.object
 };
 
 export default SideScroll;

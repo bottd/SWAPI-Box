@@ -18,7 +18,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    const selected = window.location.pathname.split('/')[1];
+    const selected = window.location.pathname.split('/')[2] || '';
     this.getEpisodeData();
     if (selected.length) {
       this.loadCards(selected);
@@ -77,7 +77,7 @@ class App extends Component {
             exact
             path="/SWAPI-Box/(people|planets|vehicles|favorites|)"
             render={({match}) => {
-              const path = match.url.slice(1);
+              const path = match.url.split('/')[2];
               return (
                 <MainPage
                   updateData={this.updateData}
@@ -89,7 +89,7 @@ class App extends Component {
               );
             }}
           />
-          <Redirect to="/SWAPI-Box" />
+        <Redirect to="/SWAPI-Box/" />
         </Switch>
       </div>
     );

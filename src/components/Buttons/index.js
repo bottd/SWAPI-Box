@@ -8,16 +8,16 @@ const Buttons = ({ updateData }) => {
   return (
     <div className="Buttons">
       <NavLink
-        to="/people"
+        to="/SWAPI-Box/people"
         className="people"
-        onClick={() => 
+        onClick={() =>
           API.people().then(people => updateData("people", people))
         }
       >
         people
       </NavLink>
       <NavLink
-        to="/planets"
+        to="/SWAPI-Box/planets"
         className="planets"
         onClick={() =>
           API.planets().then(planets => updateData("planets", planets))
@@ -26,7 +26,7 @@ const Buttons = ({ updateData }) => {
         planets
       </NavLink>
       <NavLink
-        to="/vehicles"
+        to="/SWAPI-Box/vehicles"
         className="vehicles"
         onClick={() =>
           API.vehicles().then(vehicles => updateData("vehicles", vehicles))
