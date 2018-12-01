@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import * as API from '../../helper/helper';
 import MainPage from '../MainPage';
 import SideScroll from '../SideScroll';
-import {Switch, Redirct, Route} from 'react-router-dom';
+import {Switch, Redirect, Route} from 'react-router-dom';
 import './App.css';
 
 class App extends Component {
